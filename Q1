@@ -1,0 +1,67 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package exercicio_fix;
+
+import javax.swing.JOptionPane;
+import java.lang.Math;
+/**
+ *
+ * @author Discente
+ */
+public class Exercicio_fix {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+
+    
+     int x,a,b,c,ma;
+     double mp;
+        String sx,sa,sb,sc;
+   
+        
+        
+        
+        sx=JOptionPane.showInputDialog(null, "Digita o valor de X:");
+        sa=JOptionPane.showInputDialog(null, "Digita o valor de A:");
+        sb=JOptionPane.showInputDialog(null, "Digita o valor de B:");
+        sc=JOptionPane.showInputDialog(null, "Digita o valor de C:");
+        
+        
+        
+       x= Integer.parseInt(sx);
+       a= Integer.parseInt(sa);
+       b= Integer.parseInt(sb);
+       c= Integer.parseInt(sc);
+       
+       
+       
+      
+        if (x% 2 == 0)
+      { ma = (a+b+c)/3;
+          JOptionPane.showMessageDialog(null, "Media aritimetica" + ma);
+      
+        if (x >10)
+        {mp = ((a*2)+(b*3)+(c*4))/9; 
+        JOptionPane.showMessageDialog(null, "Media ponderada" + mp);
+        }}
+        
+        else
+        {JOptionPane.showMessageDialog(null, "Numero impa");}
+        
+        
+    
+        
+      
+      
+      
+      
+      
+      
+      
+    }
+}
